@@ -4,7 +4,7 @@ The signals surface whatever is new in the text they read: "Opus 5.5" and "Hyper
 but also "Lots", "Trained" and "voice notes". A small model reads each term with a few
 places it appeared and scores it from 0 to 1; the report leads with the names.
 
-One chat call per CHUNK terms through AIsa's OpenAI-compatible endpoint (https://go.aisa.one/quantbang), the model set in
+One chat call per CHUNK terms through AIsa's OpenAI-compatible endpoint (https://go.aisa.one/cn), the model set in
 config.json (judge.model). Without a key, or when the call fails, the terms keep no
 score and the report lists them all: the judge sorts the report, it never blocks it.
 """

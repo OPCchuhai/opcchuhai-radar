@@ -54,24 +54,24 @@
 
 | 信号 | 抓什么 | 需要 | 花费 |
 |---|---|---|---|
-| ① X | 你关注的账号里，60 天内第一次出现的名字 | [AIsa](https://go.aisa.one/quantbang) key | 每个账号每次 $0.003 |
+| ① X | 你关注的账号里，60 天内第一次出现的名字 | [AIsa](https://go.aisa.one/cn) key | 每个账号每次 $0.003 |
 | ① Hugging Face | 新进热门榜前 50 的模型和 Space（大家实际在试的 demo）；量化副本和模型自带的 demo 归到同一个基础名下 | 无 | 免费 |
 | ② GitHub 爆发 | 创建不到 14 天、平均每天涨 200 星以上，或比昨天多 400 星的仓库；附带大家实际会搜的写法（「niko strata」） | 无（有 GitHub token 限额更高） | 免费 |
 | ③ 竞品 sitemap | 某个站新增的几个网址共用、而它的旧网址里很少出现的词。示例配置盯着 8 个 AI 工具导航站（toolify、aixploria、ai-bot.cn、opentools、dang.ai、clipfly、aitoptools、futurepedia）和 4 个 MCP、skill 目录 | 你列出的 sitemap | 免费 |
-| ③ 新站 | 近 90 天注册且首次被收录、已经有 20 个以上排名词的域名；每个新出现的站附上它最先排进 Google 前 20 的词，不限国家：这么新的站已经够到的那些搜索 | [AIsa](https://go.aisa.one/quantbang) key | 每个查询约 $0.13，每周一次；每个新站查词约 $0.013 |
-| ⑦ 求助 | Reddit 上大家在要什么（"is there an AI tool that…" 等 12 种问法），还有 X、Stack Exchange（Software Recommendations 等 4 个站）和 Freelancer.com 上的：模型留下 AI 工具能解决的求助和抱怨，把每件事写成大家会搜的说法；有搜索量的再做首页竞争检查 | [AIsa](https://go.aisa.one/quantbang) key | 每周约 $0.12，X 另加几美分 |
-| ⑧ 新卖家 | 刚挂上第一条收款链接的站（Stripe Payment Links、Polar、Lemon Squeezy、Gumroad、Creem、Paddle、Dodo Payments、Waffo Pancake），来自公开外链数据，带这个站第一次挂链接的日期；老卖家的新页面、平台上的用户页、论坛，以及好几个新站共用的同一条链接（站群）都不算；站点自己的介绍交给新词表，有 GoAnyAPI 时还有访问量、域名注册日期和访客来源（含 AI 占比） | [AIsa](https://go.aisa.one/quantbang) key；GoAnyAPI 可选 | 每周约 $0.50 |
-| ⑧b 新作品 | 刚用 Lovable、v0 做出来的站，刚在 beehiiv 开张的 newsletter，从它们挂的徽章认出来；只有其中的软件才进线索 | [AIsa](https://go.aisa.one/quantbang) key | 每周约 $0.15 |
-| ⑨ 新上架 | Product Hunt、Show HN、OpenRouter、Civitai、App Store 畅销榜和 awesome 列表上的新条目（免费）；每周一次：Google 新收录的 Figma 插件、There's An AI For That、Chrome 应用商店页面，抖音、TikTok、Reddit 热搜，以及词根旁边正在上升的搜索（"ai generator"） | 免费列表不用 key；其余要 [AIsa](https://go.aisa.one/quantbang) 和 GoAnyAPI 的 key | 免费；每个路径约 $0.02，每份热搜 $0.001，每个词根 6 个 GoAnyAPI 积分 |
+| ③ 新站 | 近 90 天注册且首次被收录、已经有 20 个以上排名词的域名；每个新出现的站附上它最先排进 Google 前 20 的词，不限国家：这么新的站已经够到的那些搜索 | [AIsa](https://go.aisa.one/cn) key | 每个查询约 $0.13，每周一次；每个新站查词约 $0.013 |
+| ⑦ 求助 | Reddit 上大家在要什么（"is there an AI tool that…" 等 12 种问法），还有 X、Stack Exchange（Software Recommendations 等 4 个站）和 Freelancer.com 上的：模型留下 AI 工具能解决的求助和抱怨，把每件事写成大家会搜的说法；有搜索量的再做首页竞争检查 | [AIsa](https://go.aisa.one/cn) key | 每周约 $0.12，X 另加几美分 |
+| ⑧ 新卖家 | 刚挂上第一条收款链接的站（Stripe Payment Links、Polar、Lemon Squeezy、Gumroad、Creem、Paddle、Dodo Payments、Waffo Pancake），来自公开外链数据，带这个站第一次挂链接的日期；老卖家的新页面、平台上的用户页、论坛，以及好几个新站共用的同一条链接（站群）都不算；站点自己的介绍交给新词表，有 GoAnyAPI 时还有访问量、域名注册日期和访客来源（含 AI 占比） | [AIsa](https://go.aisa.one/cn) key；GoAnyAPI 可选 | 每周约 $0.50 |
+| ⑧b 新作品 | 刚用 Lovable、v0 做出来的站，刚在 beehiiv 开张的 newsletter，从它们挂的徽章认出来；只有其中的软件才进线索 | [AIsa](https://go.aisa.one/cn) key | 每周约 $0.15 |
+| ⑨ 新上架 | Product Hunt、Show HN、OpenRouter、Civitai、App Store 畅销榜和 awesome 列表上的新条目（免费）；每周一次：Google 新收录的 Figma 插件、There's An AI For That、Chrome 应用商店页面，抖音、TikTok、Reddit 热搜，以及词根旁边正在上升的搜索（"ai generator"） | 免费列表不用 key；其余要 [AIsa](https://go.aisa.one/cn) 和 GoAnyAPI 的 key | 免费；每个路径约 $0.02，每份热搜 $0.001，每个词根 6 个 GoAnyAPI 积分 |
 | ⑩ 付费信号 | 一个付费工具站的 AdSense 账户名下的其他站（站长的其他赛道），以及你关注的词上新出现的广告主（Google 广告透明度中心） | GoAnyAPI key | 每个站双向各 3 积分，每个词 4 积分；每周一次 |
-| 新名字的旁证 | 当天最强的几个新名字：带这个名字的新域名（whois，或 crt.sh 的新证书）、维基百科浏览量、Google 把它认作什么、Discord 服务器；付费产品则查「alternative」「vs」「free」「pricing」「review」这些搜索 | [AIsa](https://go.aisa.one/quantbang) key；Discord 要 GoAnyAPI | whois 每个名字约 $0.12，搜索量 $0.09 |
+| 新名字的旁证 | 当天最强的几个新名字：带这个名字的新域名（whois，或 crt.sh 的新证书）、维基百科浏览量、Google 把它认作什么、Discord 服务器；付费产品则查「alternative」「vs」「free」「pricing」「review」这些搜索 | [AIsa](https://go.aisa.one/cn) key；Discord 要 GoAnyAPI | whois 每个名字约 $0.12，搜索量 $0.09 |
 | ⑥ 收入 | 有人付钱的产品，来自 TrustMRR 核验过的收入：增长最快的（30 天收入 $500 以上）和最新上榜的；上次 $0、这次过了门槛的排最前。它自己的介绍会作为依据交给新词表 | TrustMRR key | 免费，6 次请求，每周一次 |
 | ④ Search Console | 你的站第一次获得曝光的查询词（用新鲜数据） | 你自己的 Google 授权 | 免费 |
-| ⑤ 复盘 | 每条线索 14 天后去 DataForSEO Trends 核对，和它自己的基线比；按信号统计命中率和提前天数 | [AIsa](https://go.aisa.one/quantbang) key | 每个搜索写法 $0.0012 |
-| 新词表 | 针对当天的新名字：找出它背后的通用搜索词（大家拿这个新东西做什么），逐个估算规模、看首页还有没有空位，并给出决策 | [AIsa](https://go.aisa.one/quantbang) key；[GoAnyAPI](https://goanyapi.com) key 可选 | 5 个名字每天约 $0.18，加上 GoAnyAPI 约 $0.30 |
-| 名字判断 | 小模型给每个词打分：是某个具体东西的名字，还是普通词？ | [AIsa](https://go.aisa.one/quantbang) key | 每次不到一美分 |
+| ⑤ 复盘 | 每条线索 14 天后去 DataForSEO Trends 核对，和它自己的基线比；按信号统计命中率和提前天数 | [AIsa](https://go.aisa.one/cn) key | 每个搜索写法 $0.0012 |
+| 新词表 | 针对当天的新名字：找出它背后的通用搜索词（大家拿这个新东西做什么），逐个估算规模、看首页还有没有空位，并给出决策 | [AIsa](https://go.aisa.one/cn) key；[GoAnyAPI](https://goanyapi.com) key 可选 | 5 个名字每天约 $0.18，加上 GoAnyAPI 约 $0.30 |
+| 名字判断 | 小模型给每个词打分：是某个具体东西的名字，还是普通词？ | [AIsa](https://go.aisa.one/cn) key | 每次不到一美分 |
 
-价格是 2026 年 10 月 [AIsa](https://go.aisa.one/quantbang) 的实际收费。按示例配置（35 个 X 账号、每天读三次，新词表每天读 5 个名字），一个月大约 $15：读 X 约 $10，新词表约 $5。账号少读几个，或者每天只读一次，费用就按比例降下来。
+价格是 2026 年 10 月 [AIsa](https://go.aisa.one/cn) 的实际收费。按示例配置（35 个 X 账号、每天读三次，新词表每天读 5 个名字），一个月大约 $15：读 X 约 $10，新词表约 $5。账号少读几个，或者每天只读一次，费用就按比例降下来。
 
 ## 新词表
 
@@ -135,10 +135,10 @@
 |---|---|---|
 | 没配 `GOANYAPI_API_KEY`（默认就是这样） | 没有 🔎 行、没有名字的长尾、没有「一起被搜的其他名字」、没有 `(US)` 走势。通用词只来自模型，走势全部读全球数据，真实的上涨可能被读成「没动」 | 「相关查询未开启：设置 GOANYAPI_API_KEY 后…」 |
 | GoAnyAPI 的 Trends 挂了（接入第一天 2026-10-12 就遇到过） | 这一次运行等同于没配 key | 「相关查询失败：…」和「国家数据获取失败，已退回全球数据：…」 |
-| 某个名字的 [AIsa](https://go.aisa.one/quantbang) 推文搜索失败（2026-10-13 遇到两次超时） | 这个名字的推文证据。仓库还有 README 可用；没有 README 的模型或产品就只剩相关查询，如果又没配 GoAnyAPI，这一天它就没有通用词 | 「推文搜索失败，这次只用了 README 和相关查询：…」 |
+| 某个名字的 [AIsa](https://go.aisa.one/cn) 推文搜索失败（2026-10-13 遇到两次超时） | 这个名字的推文证据。仓库还有 README 可用；没有 README 的模型或产品就只剩相关查询，如果又没配 GoAnyAPI，这一天它就没有通用词 | 「推文搜索失败，这次只用了 README 和相关查询：…」 |
 | 某个名字既没有推文也没有 README | 它的通用词；名字自己那一行还在 | 「没找到帖子或 README：…」 |
 | 当天没有名字得分 0.8 以上的「东西」类线索 | 整张表 | 「今天没有要读的名字…」 |
-| [AIsa](https://go.aisa.one/quantbang) 的搜索量或 Trends 查询失败 | 整张表：这两项没有替代来源 | 表的位置直接显示报错 |
+| [AIsa](https://go.aisa.one/cn) 的搜索量或 Trends 查询失败 | 整张表：这两项没有替代来源 | 表的位置直接显示报错 |
 
 表薄了，不等于今天没动静。下结论说「什么都没涨」之前，先看表下面那几行。
 
@@ -160,7 +160,7 @@ TrustMRR 的 API 条款不允许转载这些数据，也不允许拿它做公开
 
 ### ⑧ 新卖家：谁刚开始收钱
 
-一个产品挂出第一条收款链接，比发一条上线帖更能说明问题：有人把东西做出来了，而且开口要钱。whoismaking.money 曾经按「往 Stripe 结账页送了多少流量」给网站排名（点击流数据；互联网档案馆里它最后一个真实页面是 2025 年 9 月的，到 2026 年 3 月，这个域名已经是带隐藏跳转的停放页）。同类数据在 [AIsa](https://go.aisa.one/quantbang) 的 Similarweb 上买得到，但每 20 行大约 $6，覆盖不了长尾。收款链接是便宜的替代：它们就是卖家自己页面上的普通链接，公开外链数据里查得到，还带着每条第一次出现的日期。Stripe 有 14.3 万个站链着它，Polar 有 1,900 个（每条都是收款链接）；Lemon Squeezy、Gumroad、Creem 只算店铺结账页、`/l/` 商品页和 `/payment/` 页，因为它们其余的链接指向自己的官网，Gumroad 还有大量被垃圾外链网络拿去用的个人主页。
+一个产品挂出第一条收款链接，比发一条上线帖更能说明问题：有人把东西做出来了，而且开口要钱。whoismaking.money 曾经按「往 Stripe 结账页送了多少流量」给网站排名（点击流数据；互联网档案馆里它最后一个真实页面是 2025 年 9 月的，到 2026 年 3 月，这个域名已经是带隐藏跳转的停放页）。同类数据在 [AIsa](https://go.aisa.one/cn) 的 Similarweb 上买得到，但每 20 行大约 $6，覆盖不了长尾。收款链接是便宜的替代：它们就是卖家自己页面上的普通链接，公开外链数据里查得到，还带着每条第一次出现的日期。Stripe 有 14.3 万个站链着它，Polar 有 1,900 个（每条都是收款链接）；Lemon Squeezy、Gumroad、Creem 只算店铺结账页、`/l/` 商品页和 `/payment/` 页，因为它们其余的链接指向自己的官网，Gumroad 还有大量被垃圾外链网络拿去用的个人主页。
 
 雷达每周对每个平台读最新的 100 条收款链接，以及最新的 100 个第一次链到这个平台的站（每个平台约 $0.06），只留这些新站的链接，列出访问量（GoAnyAPI）和首页自己的标题、介绍。介绍同时交给新词表当依据。第一次真实跑下来，排在最前面的是 janitorai.com、framer.com、pub.dev、Flathub，还有一个 n8n 论坛帖：全是大平台上的用户页，链着别人的收款链接。所以后来改成：链接必须出现在这个站自己的首页、定价页或产品页上，不能是帖子、讨论串或列表页；站点在 DataForSEO 0 到 1,000 的评分里不超过 350；月访问超过 30 万的，当成平台。然后由一个小模型根据各站自己的介绍分类（模型调不通，就用关键词规则）。AI 和软件排最前，然后是模板、课程，再是其他；同一类里，访问量大的在前。第一次按类型排，列出来的 12 个全是软件（里面有 Mac 实时字幕、和 PDF 对话的工具、macOS 上的 AI 写作 app、一个 MCP 目录、一个日本的内控审计 SaaS）。只按访问量排的话，前面是 Blender 插件站、食谱博客和设计图库。有收款链接，只说明这个站在卖，不说明卖得好。付款时才由代码临时生成的结账页，这里看不到。
 
@@ -199,7 +199,7 @@ python -m radar history --out sellers.csv
 
 ### ⚡ 教程观众在要什么
 
-对每天最多 3 条带 ⚡ 的线索（一条被大量转发的手动流程教程），雷达先找出它的热门教程视频（GoAnyAPI），再读视频下面的评论（[AIsa](https://go.aisa.one/quantbang)，每页 $0.001），让模型抽出观众想要的东西：哪一步太难、「能不能一键搞定」。这份清单，就是那个还没人做出来的一键工具。找视频需要 GoAnyAPI key。
+对每天最多 3 条带 ⚡ 的线索（一条被大量转发的手动流程教程），雷达先找出它的热门教程视频（GoAnyAPI），再读视频下面的评论（[AIsa](https://go.aisa.one/cn)，每页 $0.001），让模型抽出观众想要的东西：哪一步太难、「能不能一键搞定」。这份清单，就是那个还没人做出来的一键工具。找视频需要 GoAnyAPI key。
 
 ## 痛点：`python -m radar pains "ai headshot"`
 
@@ -207,27 +207,27 @@ python -m radar history --out sellers.csv
 
 - Chrome 上这个词对应的扩展，低星评论（1 到 3 星）；也可以用 `--extension ID` 指定扩展（GoAnyAPI：找扩展 2 credits，每页评论 3 credits）；
 - 苹果搜索接口为这个词返回的 iOS 应用，低星评论（1 到 3 星，来自苹果公开 RSS，免费）；
-- Reddit 上抱怨这件事、或者抱怨相关工具的帖子（"{关键词} alternative"、"{关键词} frustrating" 等；[AIsa](https://go.aisa.one/quantbang)）；
-- 这个词的热门教程视频下面的评论（[AIsa](https://go.aisa.one/quantbang)）。
+- Reddit 上抱怨这件事、或者抱怨相关工具的帖子（"{关键词} alternative"、"{关键词} frustrating" 等；[AIsa](https://go.aisa.one/cn)）；
+- 这个词的热门教程视频下面的评论（[AIsa](https://go.aisa.one/cn)）。
 
 模型把它们收成几类缺口（缺功能、太难、质量差、太贵、想要一个工具），每一类给出次数、一个例子，以及有这个问题的人会搜什么。每个词大约 $0.05。次数是这次读到的条目数，不代表整个市场。
 
-读不到的：Google Play 和 Trustpilot 的评论（DataForSEO 是「先提交、后取结果」的任务接口，[AIsa](https://go.aisa.one/quantbang) 只支持同步调用）；There's An AI For That 的求助板（每个页面前都有 Cloudflare 的验证，硬闯就是绕过对方的反爬，雷达不做）；Facebook 小组（Meta 在 2024 年 4 月关掉了 Groups API，它的研究库只对获批的学术和非营利研究者开放）。
+读不到的：Google Play 和 Trustpilot 的评论（DataForSEO 是「先提交、后取结果」的任务接口，[AIsa](https://go.aisa.one/cn) 只支持同步调用）；There's An AI For That 的求助板（每个页面前都有 Cloudflare 的验证，硬闯就是绕过对方的反爬，雷达不做）；Facebook 小组（Meta 在 2024 年 4 月关掉了 Groups API，它的研究库只对获批的学术和非营利研究者开放）。
 
 ## 一把必需的 key，一把可选的
 
-雷达里所有要付钱的部分，都走 [AIsa](https://go.aisa.one/quantbang)：X 帖子、DataForSEO Trends（DataForSEO 对 Google 搜索热度的估算，不是 Google Trends 本身）、域名数据，以及用来判断名字、提出搜索词的模型。一把 key，按次付费，不用再分别去订阅 X 的 API 和 DataForSEO。从 [AIsa](https://go.aisa.one/quantbang) 拿到的 key，配进 `AISA_API_KEY` 就能用。
+雷达里所有要付钱的部分，都走 [AIsa](https://go.aisa.one/cn)：X 帖子、DataForSEO Trends（DataForSEO 对 Google 搜索热度的估算，不是 Google Trends 本身）、域名数据，以及用来判断名字、提出搜索词的模型。一把 key，按次付费，不用再分别去订阅 X 的 API 和 DataForSEO。从 [AIsa](https://go.aisa.one/cn) 拿到的 key，配进 `AISA_API_KEY` 就能用。
 
 **可选：`GOANYAPI_API_KEY`**（[goanyapi.com](https://goanyapi.com/r/ga-95708898fb)）从两方面把新词表做得更准，每天大约 $0.07：给每个名字补上 Google Trends 的相关查询；名字和规模较大的通用词（月搜索量 1,000 以上，最多 8 行）的走势，改用单个国家、结算到昨天的 30 天日数据来读。这些行的「现在」后面会标出国家，例如 `还在涨 (US)`。不配这把 key，新词表就只用模型提出的写法，走势全部读全球数据。这个服务很新（2026 年 8 月才发布）。我们测的时候，每次调用要 20 到 55 秒，大约十次里有一次失败，所以雷达会试两次，失败就写在表里，然后继续往下跑。
 
-没有 [AIsa](https://go.aisa.one/quantbang) 的 key 时，免费的信号照常跑（Hugging Face、GitHub、sitemap、Search Console）。报告里所有词会不分先后地列出来，因为没有模型判断哪些是名字。
+没有 [AIsa](https://go.aisa.one/cn) 的 key 时，免费的信号照常跑（Hugging Face、GitHub、sitemap、Search Console）。报告里所有词会不分先后地列出来，因为没有模型判断哪些是名字。
 
 ## 快速开始
 
 用 [uv](https://docs.astral.sh/uv/) 的 `uvx`，可以直接从 PyPI 跑雷达，不用克隆，也不用先安装：
 
 ```bash
-export AISA_API_KEY=...                       # 从 https://go.aisa.one/quantbang 获取；用 AIsa 命令行 `aisa login` 登录过也可以
+export AISA_API_KEY=...                       # 从 https://go.aisa.one/cn 获取；用 AIsa 命令行 `aisa login` 登录过也可以
 uvx new-term-radar daily --out report.md      # 今天的新名字，和它们背后的关键词表
 uvx new-term-radar keywords "photocraft"      # 你手上已有的名字的关键词表
 ```
@@ -294,7 +294,7 @@ python -m radar daily --skip x,hf --out report.md  # 其余全部，每天一次
 | `topics` | 名称和正则：每个主题单独一节，列出匹配的线索、仓库和查询 |
 | `known_terms` | 你已经有页面的词，或者永远不想再看到的词。一条线索包含它，或者被它包含，就会被标出来，不进入复盘 |
 | `stop_words` | 你这个领域的日常用词，追加到内置词表后面（内置词表是按 AI 工具调的） |
-| `judge` | `model`（[AIsa](https://go.aisa.one/quantbang) 上任意一个对话模型）和 `min_score`（默认 0.5） |
+| `judge` | `model`（[AIsa](https://go.aisa.one/cn) 上任意一个对话模型）和 `min_score`（默认 0.5） |
 | `breakout` | `window_days`、`min_stars`、`velocity_min`（每天涨星）、`delta_min`（比昨天多的星）；可选影子查询 `young_days`/`young_min_stars`（创建不久、涨得很快的仓库）和 `late_days`/`late_min_stars`（更早创建但最近起量的仓库）；当天第一次达到爆发标准的新仓库（`is_new`）会优先留在报告的前 15 条里，排在老仓库前面 |
 | `new_sites` | `queries`：名称和域名的 SQL LIKE 模式（`"%ai%"`），每个是一次付费查询；`weekday`（0 = 周一） |
 | `review` | `after_days`（14）和 `per_day`（每天复盘 5 条） |
@@ -368,7 +368,7 @@ npx skills add zhuyansen/new-term-radar
 }
 ```
 
-没有 uv 的话，先 `pip install "new-term-radar[mcp]"`，再把 `"command"` 改成 `"new-term-radar-mcp"`，去掉 `args`。上面的 Claude Code 插件已经自带这个服务器：启用插件时，Claude Code 会让你填 [AIsa](https://go.aisa.one/quantbang) 的 key（GoAnyAPI 的 key 可选），存进系统钥匙串。服务器用示例配置，状态存在插件自己的数据目录里。
+没有 uv 的话，先 `pip install "new-term-radar[mcp]"`，再把 `"command"` 改成 `"new-term-radar-mcp"`，去掉 `args`。上面的 Claude Code 插件已经自带这个服务器：启用插件时，Claude Code 会让你填 [AIsa](https://go.aisa.one/cn) 的 key（GoAnyAPI 的 key 可选），存进系统钥匙串。服务器用示例配置，状态存在插件自己的数据目录里。
 
 | 工具 | 返回什么 | 花费和耗时 |
 |---|---|---|
@@ -398,7 +398,7 @@ RADAR_STATE = "/绝对路径/state"
 
 Codex 默认只给服务器 10 秒启动、每次工具调用 60 秒。第一次启动要下载包，`keyword_table` 每个名字要 40 到 90 秒，一次 `daily` 要 5 到 15 分钟，所以上面两个超时都得调大。`codex mcp add new-term-radar --env AISA_API_KEY=... --env RADAR_STATE=/绝对路径/state -- uvx --with mcp new-term-radar mcp` 也能写入同样的配置，只是不带这两个超时。
 
-**TRAE。** skill：`npx skills add zhuyansen/new-term-radar -a trae-cn`（国际版用 `-a trae`）。服务器：设置 → MCP → 添加 → 手动添加，把上面的 JSON 贴进去。TRAE CN 也可以把下面这个链接贴到浏览器地址栏，TRAE 会打开这个服务器的配置页。填上 [AIsa](https://go.aisa.one/quantbang) 的 key，把 `RADAR_STATE` 改成你机器上的一个绝对路径，再确认：
+**TRAE。** skill：`npx skills add zhuyansen/new-term-radar -a trae-cn`（国际版用 `-a trae`）。服务器：设置 → MCP → 添加 → 手动添加，把上面的 JSON 贴进去。TRAE CN 也可以把下面这个链接贴到浏览器地址栏，TRAE 会打开这个服务器的配置页。填上 [AIsa](https://go.aisa.one/cn) 的 key，把 `RADAR_STATE` 改成你机器上的一个绝对路径，再确认：
 
 ```text
 trae-cn://trae.ai-ide/mcp-import?type=stdio&name=new-term-radar&config=eyJjb21tYW5kIjoidXZ4IiwiYXJncyI6WyItLXdpdGgiLCJtY3AiLCJuZXctdGVybS1yYWRhciIsIm1jcCJdLCJlbnYiOnsiQUlTQV9BUElfS0VZIjoiIiwiR09BTllBUElfQVBJX0tFWSI6IiIsIlJBREFSX1NUQVRFIjoiL2Fic29sdXRlL3BhdGgvdG8vc3RhdGUifX0%3D

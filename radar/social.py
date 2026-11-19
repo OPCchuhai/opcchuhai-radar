@@ -1,8 +1,8 @@
-"""Where people ask for things in their own words: Reddit posts and YouTube comments, through AIsa (https://go.aisa.one/quantbang).
+"""Where people ask for things in their own words: Reddit posts and YouTube comments, through AIsa (https://go.aisa.one/cn).
 
 reddit(): AIsa's Reddit search, $0.0019 a query (2026-10-14), with title, text, score, comments,
 subreddit, link and creation time. youtube_comments(): the top-level comments of a video through
-AIsa (https://go.aisa.one/quantbang, TikHub), $0.001 a page of 20. Both are read for research: quote them, do not republish them.
+AIsa (https://go.aisa.one/cn, TikHub), $0.001 a page of 20. Both are read for research: quote them, do not republish them.
 """
 from __future__ import annotations
 
