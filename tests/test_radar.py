@@ -431,7 +431,8 @@ def test_review_stores_the_verdict(cfg, tmp_path, monkeypatch):
 
 def _write_config(tmp_path, **more):
     path = tmp_path / "config.json"
-    path.write_text(json.dumps({"x_accounts": {"labs": ["a"]}, **more}))
+    # Tests that assert English report text opt in. The product default is Chinese.
+    path.write_text(json.dumps({"lang": "en", "x_accounts": {"labs": ["a"]}, **more}))
     return path
 
 
@@ -964,11 +965,15 @@ def test_without_a_config_file_the_radar_runs_on_the_example_it_ships_with(tmp_p
     monkeypatch.chdir(tmp_path)
     cfg = config.load()
     assert cfg["x_accounts"]["labs"] and cfg["_dir"].resolve() == tmp_path.resolve()
+    assert cfg["lang"] == "zh"                                      # the shipped example reports in Chinese
     assert "example list" in capsys.readouterr().err
     with pytest.raises(SystemExit, match="not found"):
         config.load(tmp_path / "mine.json")                          # a path you name must exist
     (tmp_path / "config.json").write_text(json.dumps({"x_accounts": {"labs": ["a"]}}))
-    assert config.load()["x_accounts"]["labs"] == ["a"]
+    loaded = config.load()
+    assert loaded["x_accounts"]["labs"] == ["a"] and loaded["lang"] == "zh"   # a missing lang falls back to Chinese
+    (tmp_path / "config.json").write_text(json.dumps({"lang": "en", "x_accounts": {"labs": ["a"]}}))
+    assert config.load()["lang"] == "en"                            # English remains a setting
 
 
 def test_the_mcp_command_says_what_is_missing(monkeypatch, capsys):

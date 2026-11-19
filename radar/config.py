@@ -18,7 +18,7 @@ EXAMPLE = Path(__file__).with_name("config.example.json")
 DEFAULT = Path("config.json")
 
 DEFAULTS = {
-    "lang": "en",
+    "lang": "zh",
     "x_accounts": {"labs": [], "bloggers": []},
     "sitemaps": {},
     "topics": {},
