@@ -1,7 +1,7 @@
 """Signal ⑦: what people ask for on Reddit ("is there an AI tool that…").
 
 A request is demand said out loud. Once a week (asks.weekday, Monday by default) this searches
-Reddit for the ways people ask for a tool (`patterns`, $0.0019 a query through AIsa, https://go.aisa.one/quantbang), keeps the
+Reddit for the ways people ask for a tool (`patterns`, $0.0019 a query through AIsa, https://go.aisa.one/cn), keeps the
 posts of the last week, and a small model sorts each: a request for something that does a job,
 a complaint about a tool, a solution someone shares, or other. For requests and complaints it
 writes the job as the words a person would search ("convert powerpoint slides to notes"). The
@@ -64,7 +64,7 @@ def parse(answer: str, n: int) -> dict[int, dict]:
 
 
 def x_posts(c: dict) -> tuple[list[dict], int]:
-    """Posts on X that ask for a tool (AIsa's advanced search, https://go.aisa.one/quantbang, $0.003, media credits), last week, `x_min_likes` or more."""
+    """Posts on X that ask for a tool (AIsa's advanced search, https://go.aisa.one/cn, $0.003, media credits), last week, `x_min_likes` or more."""
     since = (date.today() - timedelta(days=7)).isoformat()
     data, cost = aisa.call([{"call_id": "x", "tool": X_TOOL, "arguments": {
         "query": f"{c['x_query']} lang:en min_faves:{c['x_min_likes']} -filter:replies since:{since}", "queryType": "Top"}}])

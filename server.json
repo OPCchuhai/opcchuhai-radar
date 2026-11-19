@@ -35,7 +35,7 @@
       "environmentVariables": [
         {
           "name": "AISA_API_KEY",
-          "description": "AIsa key (https://go.aisa.one/quantbang). X posts, search volumes, DataForSEO Trends and the models all go through it.",
+          "description": "AIsa key (https://go.aisa.one/cn). X posts, search volumes, DataForSEO Trends and the models all go through it.",
           "isRequired": true,
           "isSecret": true
         },
