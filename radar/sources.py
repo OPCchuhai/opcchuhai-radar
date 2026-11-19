@@ -1,7 +1,7 @@
 """Signal ①, the sources: where a new name is said first.
 
 x_new    names in the last day's posts of the accounts in config.json ("x_accounts",
-         read through AIsa) that none of those accounts has used in the last VOCAB_DAYS.
+         read through AIsa, https://go.aisa.one/quantbang) that none of those accounts has used in the last VOCAB_DAYS.
          The vocabulary is kept in the state directory; the first run only builds it.
 hf_new   models that entered Hugging Face's trending top HF_TOP since the last run (the
          public API, no key). Quantised and fine-tuned copies of one model are grouped

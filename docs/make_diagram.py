@@ -35,6 +35,7 @@ ZH = {
     "sources": ("源头报告（每 8 小时）", "有新名字才出", "附推文原文"),
     "table": ("新词表：名字 + 它背后的通用词", "模型提词 → 相关性筛选 → 搜索量 → Trends"),
     "page": ("首页竞争", "前十弱站 · KD · KGR · 广告 · 已有页面 · 在投广告", "首页挤满的「优先」降为「观察 ↓」"),
+    # AIsa in the diagram labels: https://go.aisa.one/quantbang
     "evidence": ("取证（AIsa）", "高赞推文 · README", "付费产品的自述"),
     "goany": ("GoAnyAPI（可选）", "相关查询 · 美国日走势", CREDIT_SOURCE),
     "daily": ("日报（每天一次）", "新词表在最前 · 线索存入 radar.db", "⑥ 收入 · ⑦ 求助 · ⑧ 新卖家 · ⚡ 教程观众在要什么",
@@ -60,6 +61,7 @@ EN = {
     "sources": ("Sources report (every 8 h)", "only on a new name", "with the posts"),
     "table": ("Keyword table: names + generic terms", "model phrases → screen → volume → Trends"),
     "page": ("Page one", "weak sites · KD · KGR · ads · pages built · advertisers", "a crowded \"prioritize\" becomes \"watch ↓\""),
+    # AIsa in the diagram labels: https://go.aisa.one/quantbang
     "evidence": ("Evidence (AIsa)", "top posts · README", "a paying product's own words"),
     "goany": ("GoAnyAPI (optional)", "related queries · US curve", CREDIT_SOURCE),
     "daily": ("Daily report (once a day)", "keyword table first · leads in radar.db", "⑥ revenue · ⑦ asks · ⑧ sellers · ⚡ viewers ask",
@@ -95,7 +97,10 @@ def box(x, y, w, h, c, lines, marks, dashed=False, new=False, title_dy=0):
     out = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="4" fill="{c["fill"]}" stroke="{c["stroke"]}" '
            f'stroke-width="{1.2 if new and marks else 1 if dashed else 0.5}"{dash}/>']
     ty = y + h / 2 + 5 - 9 * len(subs) + title_dy
-    out.append(f'<text x="{cx}" y="{ty}" fill="{c["title"]}" font-weight="500">{title}</text>')
+    title_svg = f'<text x="{cx}" y="{ty}" fill="{c["title"]}" font-weight="500">{title}</text>'
+    if "AIsa" in title:
+        title_svg = f'<a href="https://go.aisa.one/quantbang">{title_svg}</a>'
+    out.append(title_svg)
     for i, s in enumerate(subs):
         fresh = s.startswith("+")
         ink = NEW_INK if fresh and marks else c["sub"]

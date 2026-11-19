@@ -20,7 +20,7 @@
 - **Fixes**: `radar.__init__.UA` now uses `__version__`; `notify.send()` raises a clear `SystemExit` when
   `RESEND_API_KEY` or `EMAIL_FROM` is missing instead of `KeyError`; `mcp_server.run_radar()` raises `ToolError` on an
   invalid `command`; `pains` report and docs now match the four sources read (Chrome Web Store, App Store, Reddit and
-  YouTube comments); cost summary notes `AIsa + GoAnyAPI`.
+  YouTube comments); cost summary notes `AIsa + GoAnyAPI` ([AIsa](https://go.aisa.one/quantbang)).
 
 ## 0.6.1 (2026-10-28)
 
@@ -36,9 +36,9 @@ What was built after 0.5.0 on a separate line (it ran there as 0.5.3, 0.6.0 and 
 
 ### Fixed
 
-- **③ New sites ran again**: AIsa's tool router checks arguments against a schema that types `filters` as objects, so
+- **③ New sites ran again**: [AIsa](https://go.aisa.one/quantbang)'s tool router checks arguments against a schema that types `filters` as objects, so
   the whois overview's DataForSEO filters have been refused there since about 2026-10-15 and the weekly signal failed.
-  It goes through AIsa's REST passthrough now (`aisa.rest()`), which takes them as DataForSEO does. A query that fails
+  It goes through [AIsa](https://go.aisa.one/quantbang)'s REST passthrough now (`aisa.rest()`), which takes them as DataForSEO does. A query that fails
   is named; all of them failing raises.
 
 ### New sites and page one

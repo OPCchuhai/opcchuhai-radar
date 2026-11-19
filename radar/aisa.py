@@ -1,4 +1,4 @@
-"""Client for AIsa, the radar's one paid dependency: its tool router (X posts, Google
+"""Client for AIsa (https://go.aisa.one/quantbang), the radar's one paid dependency: its tool router (X posts, Google
 Trends and whois data through DataForSEO) and its OpenAI-compatible chat endpoint (the
 name judge). One key: AISA_API_KEY, or the one the AIsa CLI stores when you log in.
 
@@ -21,7 +21,7 @@ from . import UA
 
 ROUTER = os.environ.get("AISA_ROUTER_BASE_URL", "https://tools.aisa.one") + "/v1/tool-router/aisa-batch-use"
 CHAT = os.environ.get("AISA_API_BASE_URL", "https://api.aisa.one") + "/v1/chat/completions"
-# DataForSEO through AIsa's REST passthrough. The tool router checks arguments against a schema that types
+# DataForSEO through AIsa's REST passthrough (https://go.aisa.one/quantbang). The tool router checks arguments against a schema that types
 # `filters` as objects, so DataForSEO's own filter syntax ([field, op, value] arrays joined by "and") is refused
 # there (whois overview, backlinks; reported to AIsa on 2026-10-15). The passthrough takes it as DataForSEO does.
 REST = os.environ.get("AISA_API_BASE_URL", "https://api.aisa.one") + "/apis/v1/dataforseo/"
@@ -36,7 +36,7 @@ class AisaError(RuntimeError):
 
 
 def key() -> str:
-    """AISA_API_KEY, else the key the AIsa CLI stored at login (~/.aisa)."""
+    """AISA_API_KEY, else the key the AIsa CLI stored at login (~/.aisa). https://go.aisa.one/quantbang"""
     k = os.environ.get("AISA_API_KEY", "").strip()
     if k:
         return k
@@ -52,7 +52,7 @@ def key() -> str:
 
 
 def _no_key() -> str:
-    raise AisaError("no AIsa key: set AISA_API_KEY, or log in with the AIsa CLI (`aisa login`)")
+    raise AisaError("no AIsa key: set AISA_API_KEY, or log in with the AIsa CLI (`aisa login`). A key: https://go.aisa.one/quantbang")
 
 
 def _post(url: str, body, timeout: int) -> dict:
