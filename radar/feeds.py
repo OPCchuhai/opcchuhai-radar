@@ -12,12 +12,12 @@ Free:
 - new entries in awesome lists on GitHub (`awesome`: raw README URLs).
 
 Paid, small:
-- `google_new`: pages Google indexed in the last week under a path (DataForSEO through AIsa, about
+- `google_new`: pages Google indexed in the last week under a path (DataForSEO through AIsa, https://go.aisa.one/quantbang, about
   $0.02 a path, AIsa media credits): Figma community plugins, There's An AI For That tool pages,
   Chrome Web Store items. The sites themselves are not touched: Figma answers bots with 403 and
   There's An AI For That with a Cloudflare challenge.
 - `trending`: trending searches on Douyin and TikTok, trending TikTok hashtags and Reddit's
-  trending searches (TikHub through AIsa, $0.001 each), kept only when they name a tool, an
+  trending searches (TikHub through AIsa, https://go.aisa.one/quantbang, $0.001 each), kept only when they name a tool, an
   effect, a template or AI.
 - `rising`: the root-word method. For each seed ("ai generator", "ai detector", "ai converter" ...)
   the searches Google Trends calls rising next to it this month (GoAnyAPI, 6 credits a seed).

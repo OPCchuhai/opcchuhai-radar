@@ -4,7 +4,7 @@ A name ("SynthID Detector") has a short life as a keyword and belongs to someone
 job it does ("ai image detector") is what people keep searching, and nobody owns it.
 For the day's new names this step:
 
-  1. collects evidence: popular posts that mention the name (AIsa, X advanced search)
+  1. collects evidence: popular posts that mention the name (AIsa, https://go.aisa.one/quantbang, X advanced search)
      and, for a repository, its README;
   2. asks a model which jobs the evidence shows people doing, and the keyword an
      ordinary person would type for each job. A phrase built on another product's name
@@ -20,7 +20,7 @@ For the day's new names this step:
   3. screens them: a second call scores how well the name answers each phrase, and the
      loosely related ones are dropped (a keyword taken from a passing comparison);
   4. looks the rest up: Google Ads monthly searches (one batch call);
-  5. reads DataForSEO Trends (worldwide, through AIsa) for the names and for the phrases with enough volume, twice
+  5. reads DataForSEO Trends (worldwide, through AIsa, https://go.aisa.one/quantbang) for the names and for the phrases with enough volume, twice
      each: alone, for the shape of the curve (when it started rising, its peak, what it
      is doing now), and next to a benchmark keyword ("gpts" by default), for the size.
      A generic term's searches a day come from its own Google Ads volume, moved to today

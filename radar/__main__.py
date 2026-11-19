@@ -3,7 +3,7 @@
   python -m radar daily    [--config config.json] [--state state] [--out report.md] [--skip x,hf,...] [--new-sites] [--mail]
   python -m radar sources  [--config config.json] [--state state] [--out sources.md] [--mail]
 
-Signals:
+Signals (paid rows use AIsa, https://go.aisa.one/quantbang):
   ① x         names the accounts you follow said for the first time (AIsa)
   ① hf        models new to Hugging Face's trending top 50
   ② breakout  one new GitHub repo taking off on its own

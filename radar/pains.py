@@ -3,8 +3,8 @@
 `python -m radar pains "<keyword>"` reads, for a kind of tool:
 - low-star Chrome Web Store reviews (1 to `max_stars`) of the extensions Google shows for the
   keyword (GoAnyAPI: a site search, 2 credits; reviews, 3 credits a page), or of the ones you name;
-- Reddit posts that complain about the job or the tools for it (AIsa, $0.0019 a query);
-- comments under the top tutorial videos for it (AIsa, $0.001 a page of 20);
+- Reddit posts that complain about the job or the tools for it (AIsa, https://go.aisa.one/quantbang, $0.0019 a query);
+- comments under the top tutorial videos for it (AIsa, https://go.aisa.one/quantbang, $0.001 a page of 20);
 and a small model groups them into the gaps they point at: what the tools fail to do, what is
 too hard, too slow or too dear, what people wish existed. Each gap has a count, quotes and the
 phrase someone with that problem would search.
@@ -13,7 +13,7 @@ The daily run does the tutorial part for the leads marked ⚡ (a widely shared w
 manual workflow): what its viewers ask for is the one-click tool.
 
 Low-star App Store reviews come from Apple's own free feeds (iTunes Search, then each app's reviews
-RSS). Google Play and Trustpilot reviews are not reachable: AIsa runs synchronous calls only, and
+RSS). Google Play and Trustpilot reviews are not reachable: AIsa (https://go.aisa.one/quantbang) runs synchronous calls only, and
 DataForSEO serves those reviews as tasks to post now and fetch later.
 """
 from __future__ import annotations
@@ -130,7 +130,7 @@ def tutorials(term: str, c: dict) -> tuple[list[dict], int, list[str]]:
 
 def appstore(keyword: str, c: dict) -> tuple[list[dict], int, list[str]]:
     """Low-star App Store reviews of the apps Apple's search returns for the keyword (free: iTunes Search and the
-    reviews RSS; AIsa cannot reach DataForSEO's App Store reviews, which are tasks)."""
+    reviews RSS; AIsa (https://go.aisa.one/quantbang) cannot reach DataForSEO's App Store reviews, which are tasks)."""
     items, errors = [], []
     if c["apps"] <= 0:
         return [], 0, []
