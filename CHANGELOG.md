@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- **Report language**: the example config and the fallback when `lang` is missing are Chinese (`"zh"`). Set `"lang": "en"` for an English report.
 - **⑤ Review**: `rose()` now scans `first_rise` starting from `first_seen` (`after_pts`) rather than across the whole
   window including the pre-report baseline, fixing negative `lead_days` when a variant had a spike before it was
   reported. Synced the October 27 retro rules into `review.py`: pre-existing terms (`born_day < 2026-10-03 - 14d` or

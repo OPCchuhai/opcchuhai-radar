@@ -232,14 +232,14 @@ uvx new-term-radar daily --out report.md      # today's new names and the keywor
 uvx new-term-radar keywords "photocraft"      # the keyword table for names you already have
 ```
 
-With no `config.json` in the folder, `daily` watches the example X accounts and sitemaps that ship with the radar and keeps its snapshots in `./state`; copy [config.example.json](config.example.json) to `config.json` there and edit it to watch your own. `uvx new-term-radar@latest …` picks up a new release; `pip install new-term-radar` (or `uv tool install new-term-radar`) keeps a `new-term-radar` command installed. Python 3.10 or newer; the radar uses only the standard library.
+With no `config.json` in the folder, `daily` watches the example X accounts and sitemaps that ship with the radar, writes the report in Chinese, and keeps its snapshots in `./state`; copy [config.example.json](config.example.json) to `config.json` there and edit it to watch your own. Set `lang` to `"en"` for an English report. `uvx new-term-radar@latest …` picks up a new release; `pip install new-term-radar` (or `uv tool install new-term-radar`) keeps a `new-term-radar` command installed. Python 3.10 or newer; the radar uses only the standard library.
 
 From a clone it is the same program, with the same key:
 
 ```bash
 git clone https://github.com/zhuyansen/new-term-radar
 cd new-term-radar
-cp config.example.json config.json      # then edit: your X accounts, sitemaps, topics
+cp config.example.json config.json      # then edit: your X accounts, sitemaps, topics; report is Chinese unless lang is "en"
 python -m radar daily --out report.md
 ```
 
@@ -288,7 +288,7 @@ and from `sources`:
 
 | Key | What it is |
 |---|---|
-| `lang` | `"en"` or `"zh"`: the language of the report |
+| `lang` | `"zh"` (example and fallback default) or `"en"`: the language of the report |
 | `x_accounts` | `labs` and `bloggers`: X handles to read. Labs say names first; pick the bloggers your field's new terms spread through |
 | `sitemaps` | Sites whose new pages you want to see. `index` is a sitemap, or a sitemap index when `shards` (a regex) picks which sub-sitemaps to read. `pause` is the seconds between requests to that site. `strip_locale` drops `/en/`, `/zh-CN/` prefixes so one entry in many languages counts once |
 | `topics` | Name and regex: each topic gets its own section listing the leads, repos and queries that match |

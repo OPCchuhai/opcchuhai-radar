@@ -1,8 +1,9 @@
 """Report text in English and Chinese. t("key", name=value) fills the template of the
-language set in config.json ("lang": "en" or "zh")."""
+language set in config.json. The example and the fallback when lang is missing are
+Chinese ("lang": "zh"); "en" still selects English."""
 from __future__ import annotations
 
-_LANG = "en"
+_LANG = "zh"
 
 T = {
     # notes on a lead, one per signal

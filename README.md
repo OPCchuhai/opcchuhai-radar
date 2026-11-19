@@ -232,14 +232,14 @@ uvx new-term-radar daily --out report.md      # 今天的新名字，和它们�
 uvx new-term-radar keywords "photocraft"      # 你手上已有的名字的关键词表
 ```
 
-当前目录没有 `config.json` 时，`daily` 用雷达自带的示例 X 账号和 sitemap，快照存在 `./state`。把 [config.example.json](config.example.json) 复制成 `config.json` 再改，就换成你自己要盯的清单（想要中文报告，把 `lang` 改成 `"zh"`）。`uvx new-term-radar@latest …` 会拉到新版本。想一直装着，就 `pip install new-term-radar`（或 `uv tool install new-term-radar`），之后直接用 `new-term-radar` 命令。需要 Python 3.10 或更高，雷达本身只用标准库。
+当前目录没有 `config.json` 时，`daily` 用雷达自带的示例 X 账号和 sitemap，报告是中文，快照存在 `./state`。把 [config.example.json](config.example.json) 复制成 `config.json` 再改，就换成你自己要盯的清单（想要英文报告，把 `lang` 改成 `"en"`）。`uvx new-term-radar@latest …` 会拉到新版本。想一直装着，就 `pip install new-term-radar`（或 `uv tool install new-term-radar`），之后直接用 `new-term-radar` 命令。需要 Python 3.10 或更高，雷达本身只用标准库。
 
 从克隆下来的仓库里跑，是同一个程序，用同一把 key：
 
 ```bash
 git clone https://github.com/zhuyansen/new-term-radar
 cd new-term-radar
-cp config.example.json config.json      # 然后编辑：你的 X 账号、sitemap、主题；想要中文报告把 lang 改成 "zh"
+cp config.example.json config.json      # 然后编辑：你的 X 账号、sitemap、主题；报告默认中文，想要英文把 lang 改成 "en"
 python -m radar daily --out report.md
 ```
 
@@ -288,7 +288,7 @@ python -m radar daily --skip x,hf --out report.md  # 其余全部，每天一次
 
 | 字段 | 含义 |
 |---|---|
-| `lang` | `"en"` 或 `"zh"`：报告的语言 |
+| `lang` | `"zh"`（示例和缺省）或 `"en"`：报告的语言 |
 | `x_accounts` | `labs` 和 `bloggers`：要读的 X 账号。实验室账号最先把名字说出来；博主选这个领域里新词靠谁传开 |
 | `sitemaps` | 你想看哪些站新增了页面。`index` 是一份 sitemap；如果它是 sitemap 索引，用 `shards`（正则）挑要读的子 sitemap。`pause` 是对这个站两次请求之间隔多少秒。`strip_locale` 去掉 `/en/`、`/zh-CN/` 这类前缀，同一条的多语言版本只算一次 |
 | `topics` | 名称和正则：每个主题单独一节，列出匹配的线索、仓库和查询 |
